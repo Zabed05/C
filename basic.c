@@ -27,13 +27,13 @@ int main()
     int i=2;
     while(i<x){
         if(x%i==0){
-            printf("not prime");
+            printf("%d is not a prime number",x);
             break;
         }
         i++;
     }
     if(i==x){
-        printf("Prime");
+        printf("%d is a Prime number",x);
     }
 
     return 0;
