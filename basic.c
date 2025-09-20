@@ -16,6 +16,30 @@ int main(){
   return 0;
 }
 
+             //NUMBER PRIME OR NOT 
+             
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    scanf("%d",&x);
+    int i=2;
+    while(i<x){
+        if(x%i==0){
+            printf("not prime");
+            break;
+        }
+        i++;
+    }
+    if(i==x){
+        printf("Prime");
+    }
+
+    return 0;
+}
+             
+
              // AREA CALCULATION OF SQUARE,CIRCLE,RECTENGULAR
 
 #include<stdio.h>
@@ -267,5 +291,4 @@ int main(){
     printf("%d \t",temp->info);
     temp=temp->next;
     }
-    
 }
